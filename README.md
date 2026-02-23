@@ -10,3 +10,5 @@ python -m venv .venv
 pip install -r requirements.txt
 
 streamlit run app.py
+
+Nota: Se requiere python 3.14.0 para que corra correctamente.
