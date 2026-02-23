@@ -7,12 +7,6 @@ python -m venv .venv
 
 # Windows
 .venv\Scripts\activate
-
-# Linux/Mac
-# source .venv/bin/activate
-
 pip install -r requirements.txt
-
-# Configurar credenciales (crear config.json a partir de config.example.json)
 
 streamlit run app.py
