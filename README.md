@@ -1,6 +1,6 @@
 A cotinuacion se muestra el proceso de descarga e instalacion del proyecto.
 
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/edfon2021/Modelo_Fraude.git
 cd tu-repo
 
 python -m venv .venv
