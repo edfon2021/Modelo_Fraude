@@ -92,7 +92,7 @@ def render(cfg: dict):
     df_rank = df.sort_values("y_proba", ascending=False).reset_index(drop=True)
 
     # Capacidad: Top-K%
-    st.markdown("### 🎯 Capacidad de revisión: Top-K% por score")
+    st.markdown("###Capacidad de revisión: Top-K% por score")
     k_pct = st.slider("Porcentaje del día que el banco puede revisar", min_value=1, max_value=50, value=10, step=1)
     k = max(1, int(np.ceil(total_tx * (k_pct / 100.0))))
     topk = df_rank.iloc[:k].copy()
